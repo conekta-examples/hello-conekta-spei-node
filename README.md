@@ -13,7 +13,8 @@ $ git clone https://github.com/conekta-examples/hello-conekta-spei-node
 $ cd hello-conekta-spei-node
 $ npm install
 ```
-change your secret key on `keys.json`
+
+change your secret key on [`keys.json`](https://github.com/conekta-examples/hello-conekta-card-node/blob/master/keys.json)
 
 ## Run
 
