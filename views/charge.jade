@@ -3,4 +3,6 @@ extends layout
 block content
   h1 Check Charge Status
   p El cargo por #{charge.amount / 100} pesos, tiene un status #{charge.status}
+  h2 CLABE: #{charge.payment_method.clabe}
+  hr
   pre #{JSON.stringify(charge, null, 2)}
